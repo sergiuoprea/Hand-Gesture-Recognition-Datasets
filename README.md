@@ -4,11 +4,11 @@
 ## Description
 
 We provide three different datasets for seven gestures performed each on 10 times by 5 volunteers, concluding in 50 samples for each gesture. The datasets are the following:
-- Original dataset: contains the x and y coordinates, in addition to the depth value of the palm center, for each feature position.
-- Motion-based normalized dataset: considering the motion of the hand instead of the raw coordinates.
-- Frame sequence compressed dataset: considering the summation of a sequence of 30 frames as one single input (using the motion-based normalized dataset). 
+- Original dataset: contains the x and y coordinates, in addition to the depth value of the palm center, for each feature position. Original_Dataset.csv
+- Motion-based normalized dataset: considering the motion of the hand instead of the raw coordinates. Motion_Normalized_Dataset.csv
+- Frame sequence compressed dataset: considering the summation of a sequence of 30 frames as one single input (using the motion-based normalized dataset). Sequence_Compressed_Dataset.csv
 
-Therefore, each dataset contains 350 gesture samples with the following gestures:
+Therefore, each dataset contains 350 gesture samples with the following gestures (each sample for each gesture is provided on its corresponding folder):
 - Zoom in: two hands moving away horizontally
 - Zoom out: two hands getting close to one another horizontally
 - Move left: single hand moving left
